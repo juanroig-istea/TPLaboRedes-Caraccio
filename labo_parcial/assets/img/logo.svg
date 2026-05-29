@@ -1,0 +1,10 @@
+<svg width="420" height="120" viewBox="0 0 420 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="420" height="120" rx="28" fill="#07140E"/>
+  <path d="M60 18L100 32V61C100 82 85 99 60 106C35 99 20 82 20 61V32L60 18Z" fill="#10B981"/>
+  <path d="M60 28L90 38V61C90 76 80 89 60 96C40 89 30 76 30 61V38L60 28Z" fill="#0B1F17" stroke="#EAFBF2" stroke-width="3"/>
+  <path d="M47 68L60 36L73 68M52 58H68" stroke="#EAFBF2" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="60" cy="77" r="10" fill="#EAFBF2"/>
+  <path d="M52 77H68M60 69V85M54 71L66 83M66 71L54 83" stroke="#07140E" stroke-width="2" stroke-linecap="round"/>
+  <text x="122" y="55" fill="#F8FAFC" font-family="Inter, Arial, sans-serif" font-size="31" font-weight="900" letter-spacing="1">ATLÉTICO NOVA</text>
+  <text x="124" y="84" fill="#86EFAC" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="800" letter-spacing="6">FOOTBALL CLUB</text>
+</svg>

@@ -1,0 +1,16 @@
+Replanteo completo de la web
+
+- El sistema dejó de ser de socios y pasó a ser un panel de gestión de jugadores para un club de fútbol.
+- Nueva identidad visual: Atlético Nova FC.
+- Nueva paleta desde cero: verde cancha, oscuro premium y acentos deportivos.
+- Nuevo logo SVG incluido.
+- Nueva tabla MySQL: jugadores.
+- Nuevas columnas: N° Jugador, Nombre, Apellido, DNI, Teléfono, Categoría, Posición, Fecha de nacimiento, Obra social, Apto médico, Estado y Acciones.
+- CRUD adaptado a jugadores.
+- Buscador adaptado a nombre, apellido y DNI.
+- Estados deportivos: Activo, Lesionado, Suspendido, Baja.
+- Aptos médicos: Vigente, Pendiente, Vencido.
+- Categorías: Primera, Reserva, Sub 20, Sub 17, Sub 15, Infantiles.
+- Posiciones: Arquero, Defensor, Mediocampista, Delantero.
+- Se conserva login con tabla login(user, password) y password_hash/password_verify.
+- Se conservan protecciones: CSRF, PDO prepared statements, session_regenerate_id y eliminación por POST.
