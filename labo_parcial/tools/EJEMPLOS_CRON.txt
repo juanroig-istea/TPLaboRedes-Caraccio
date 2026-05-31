@@ -1,0 +1,127 @@
+# Ejemplos de Configuración CRON para Backup Automático
+# ===================================================
+#
+# Copia TODA la línea deseada y agrégala a tu crontab:
+#   crontab -e
+#
+# Luego pega la línea, guarda (Ctrl+X, Y, Enter en nano) y listo
+
+# ==================== EJEMPLOS ====================
+
+# OPCIÓN 1: Backup diario a las 2:00 AM (02:00)
+0 2 * * * /usr/bin/php /var/www/html/club_jugadores_app/tools/backup.php
+
+# OPCIÓN 2: Backup diario a las 3:00 AM (03:00)
+0 3 * * * /usr/bin/php /var/www/html/club_jugadores_app/tools/backup.php
+
+# OPCIÓN 3: Backup diario a las 12:00 PM (mediodía) (12:00)
+0 12 * * * /usr/bin/php /var/www/html/club_jugadores_app/tools/backup.php
+
+# OPCIÓN 4: Backup diario a las 6:00 PM (18:00)
+0 18 * * * /usr/bin/php /var/www/html/club_jugadores_app/tools/backup.php
+
+# OPCIÓN 5: Backup diario a las 11:00 PM (23:00)
+0 23 * * * /usr/bin/php /var/www/html/club_jugadores_app/tools/backup.php
+
+# ==================== MÚLTIPLES BACKUPS AL DÍA ====================
+
+# Backup dos veces al día: 2 AM y 2 PM
+0 2 * * * /usr/bin/php /var/www/html/club_jugadores_app/tools/backup.php
+0 14 * * * /usr/bin/php /var/www/html/club_jugadores_app/tools/backup.php
+
+# Backup tres veces al día: 2 AM, 12 PM y 6 PM
+0 2 * * * /usr/bin/php /var/www/html/club_jugadores_app/tools/backup.php
+0 12 * * * /usr/bin/php /var/www/html/club_jugadores_app/tools/backup.php
+0 18 * * * /usr/bin/php /var/www/html/club_jugadores_app/tools/backup.php
+
+# ==================== CADA X HORAS ====================
+
+# Backup cada 6 horas
+0 */6 * * * /usr/bin/php /var/www/html/club_jugadores_app/tools/backup.php
+
+# Backup cada 12 horas
+0 */12 * * * /usr/bin/php /var/www/html/club_jugadores_app/tools/backup.php
+
+# Backup cada 4 horas
+0 */4 * * * /usr/bin/php /var/www/html/club_jugadores_app/tools/backup.php
+
+# ==================== BACKUP CON SCRIPT BASH ====================
+
+# Si prefieres usar el script bash (más eficiente en Linux)
+# Asegúrate primero de dar permisos: chmod +x /var/www/html/club_jugadores_app/tools/backup.sh
+
+0 2 * * * /var/www/html/club_jugadores_app/tools/backup.sh
+
+# ==================== CON LOGGING Y REDIRECCIÓN ====================
+
+# Guardar output en archivo de log del cron
+0 2 * * * /usr/bin/php /var/www/html/club_jugadores_app/tools/backup.php >> /var/www/html/club_jugadores_app/backups/cron.log 2>&1
+
+# Enviar email al completar (si está configurado)
+0 2 * * * /usr/bin/php /var/www/html/club_jugadores_app/tools/backup.php 2>&1 | mail -s "Backup completado" admin@ejemplo.com
+
+# ==================== INSTRUCCIONES ====================
+
+# 1. Abre tu editor de cron
+#    $ crontab -e
+
+# 2. Ve al final del archivo
+
+# 3. Copia UNA de las líneas de arriba (completa, sin el #)
+#    Ejemplo:
+#    0 2 * * * /usr/bin/php /var/www/html/club_jugadores_app/tools/backup.php
+
+# 4. Guarda el archivo
+#    En nano: Ctrl+X → Y → Enter
+#    En vi: :wq → Enter
+
+# 5. Verifica que se agregó correctamente
+#    $ crontab -l
+
+# ==================== FORMATO CRON ====================
+
+# Estructura de línea cron:
+#    ┌───────────────── minuto (0 - 59)
+#    │ ┌───────────────── hora (0 - 23)
+#    │ │ ┌───────────────── día del mes (1 - 31)
+#    │ │ │ ┌───────────────── mes (1 - 12)
+#    │ │ │ │ ┌───────────────── día de la semana (0 - 6)
+#    │ │ │ │ │
+#    │ │ │ │ │
+#    * * * * * comando a ejecutar
+#    0 2 * * * /ruta/al/script.php
+#
+# Ejemplos:
+# 0 2 * * *   = Cada día a las 2:00 AM
+# 30 2 * * *  = Cada día a las 2:30 AM
+# 0 */6 * * * = Cada 6 horas
+# 0 2 * * 1   = Cada lunes a las 2:00 AM
+# 0 2 1 * *   = Primero de cada mes a las 2:00 AM
+
+# ==================== ENCONTRAR RUTA DE PHP ====================
+
+# Si no sabes dónde está tu PHP, ejecuta:
+# $ which php
+
+# En la mayoría de Linux/Ubuntu está en:
+# /usr/bin/php
+
+# En algunos sistemas puede estar en:
+# /usr/local/bin/php
+# /opt/php/bin/php
+
+# Verifica la ruta correcta antes de agregar al cron
+
+# ==================== VERIFICACIÓN ====================
+
+# Para verificar que el cron se agregó correctamente:
+# $ crontab -l
+
+# Para ver los logs del cron (en Ubuntu/Debian):
+# $ grep CRON /var/log/syslog | tail -20
+
+# Para ver los logs del cron (en CentOS/RHEL):
+# $ tail -20 /var/log/cron
+
+# Para ver el backup.log creado por el script:
+# $ tail -f /var/www/html/club_jugadores_app/backups/backup.log
