@@ -1,0 +1,101 @@
+numero_jugador,nombre,apellido,dni,telefono,categoria,posicion,fecha_nacimiento,obra_social,apto_medico,estado
+1,Federico,Lopez,32839221,1146913810,Primera,Defensor,1995-03-24,Swiss Medical,Pendiente,Suspendido
+2,Matias,Rojas,34917183,1189254563,Primera,Mediocampista,1989-01-03,Medicus,Vigente,Activo
+3,Emiliano,Gomez,38671884,1197226012,Primera,Delantero,2001-04-15,Jerárquicos Salud,Vigente,Activo
+4,Ignacio,Aguirre,37357277,1166722344,Primera,Mediocampista,1996-03-07,Sancor Salud,Vigente,Activo
+5,Nicolas,Lopez,44045349,1156164955,Primera,Mediocampista,1989-12-15,Unión Personal,Vigente,Activo
+6,Benjamin,Rojas,41837430,1194374605,Primera,Mediocampista,1994-12-03,OSDE,Pendiente,Activo
+7,Ignacio,Romero,34677374,1141244663,Primera,Defensor,2000-05-15,Sancor Salud,Vigente,Activo
+8,Lucas,Garcia,40958289,1196977837,Primera,Defensor,1993-09-24,Medicus,Vigente,Activo
+9,Nicolas,Diaz,39369062,1153524491,Primera,Arquero,1995-01-26,Sancor Salud,Vigente,Activo
+10,Benjamin,Garcia,42558837,1138538251,Primera,Delantero,2000-11-15,Galeno,Vigente,Activo
+11,Santino,Ponce,40816145,1188461803,Primera,Mediocampista,2000-06-08,Galeno,Vigente,Activo
+12,Benjamin,Quiroga,33580963,1124716857,Primera,Defensor,1993-11-14,Jerárquicos Salud,Vigente,Activo
+13,Nicolas,Castro,47705148,1181016525,Primera,Mediocampista,2005-01-22,Swiss Medical,Pendiente,Activo
+14,Ignacio,Diaz,43414394,1124972279,Primera,Mediocampista,2001-03-15,OSDE,Vencido,Suspendido
+15,Bautista,Medina,37994562,1178139880,Primera,Defensor,1997-11-17,Jerárquicos Salud,Vigente,Activo
+16,Lucas,Quiroga,37420686,1182394227,Primera,Delantero,1988-10-11,OSECAC,Vigente,Activo
+17,Damian,Ruiz,42318461,1142138745,Primera,Arquero,1995-10-03,Swiss Medical,Vencido,Activo
+18,Alan,Fernandez,36219822,1127232410,Reserva,Delantero,2008-03-09,Unión Personal,Pendiente,Activo
+19,Joaquin,Peralta,38749509,1151837852,Reserva,Mediocampista,2006-08-17,OSECAC,Vigente,Activo
+20,Santino,Fernandez,43344269,1112823170,Reserva,Delantero,2005-10-08,OSDE,Vigente,Suspendido
+21,Federico,Rodriguez,39682011,1119046318,Reserva,Arquero,2006-02-17,Medicus,Vigente,Lesionado
+22,Santiago,Garcia,36439648,1186644106,Reserva,Delantero,2005-08-26,Avalian,Vigente,Activo
+23,Valentino,Molina,46463677,1157553014,Reserva,Mediocampista,2007-08-28,OSDE,Pendiente,Lesionado
+24,Federico,Lopez,34033823,1164038913,Reserva,Mediocampista,2004-04-07,Medicus,Vigente,Activo
+25,Thiago,Acosta,38156836,1147385696,Reserva,Delantero,2005-02-15,Unión Personal,Vigente,Activo
+26,Federico,Rojas,32495191,1122517517,Reserva,Defensor,2005-07-16,OSECAC,Vigente,Activo
+27,Matias,Rodriguez,37524305,1160864911,Reserva,Arquero,2007-05-26,OSECAC,Vigente,Activo
+28,Maximo,Ponce,48329982,1130776478,Reserva,Defensor,2006-04-02,Jerárquicos Salud,Vencido,Activo
+29,Mateo,Ponce,42522831,1117672593,Reserva,Arquero,2008-08-17,Unión Personal,Vigente,Activo
+30,Ramiro,Fernandez,38235251,1119196777,Reserva,Defensor,2005-07-04,Jerárquicos Salud,Vigente,Activo
+31,Emiliano,Rodriguez,34750906,1166267415,Reserva,Delantero,2006-05-07,Sancor Salud,Vigente,Activo
+32,Nicolas,Martinez,42066231,1171367643,Reserva,Mediocampista,2004-01-15,Jerárquicos Salud,Vigente,Activo
+33,Benjamin,Rojas,39152271,1177898694,Reserva,Mediocampista,2005-06-03,Medicus,Vigente,Activo
+34,Tomas,Benitez,42150790,1192097999,Reserva,Delantero,2004-11-27,Unión Personal,Vigente,Lesionado
+35,Valentino,Godoy,36506062,1145496015,Sub 20,Defensor,2006-12-18,Galeno,Vigente,Activo
+36,Emiliano,Garcia,43505153,1137326368,Sub 20,Mediocampista,2008-08-09,OSDE,Vigente,Lesionado
+37,Facundo,Cabrera,41283847,1115917225,Sub 20,Arquero,2007-03-21,IOMA,Vigente,Suspendido
+38,Martin,Rojas,46350791,1185283645,Sub 20,Arquero,2006-02-23,Galeno,Vigente,Activo
+39,Alan,Ruiz,36969202,1167684996,Sub 20,Defensor,2006-05-12,OSDE,Vigente,Activo
+40,Bruno,Sosa,35449181,1157469942,Sub 20,Delantero,2007-10-24,Galeno,Vigente,Activo
+41,Kevin,Aguirre,37940891,1165337219,Sub 20,Arquero,2006-12-11,Avalian,Pendiente,Suspendido
+42,Kevin,Sosa,40952514,1131367172,Sub 20,Defensor,2007-01-28,OSECAC,Vigente,Activo
+43,Alan,Peralta,47445213,1156930359,Sub 20,Mediocampista,2006-04-01,Medicus,Vigente,Activo
+44,Bautista,Cardozo,34329373,1147463522,Sub 20,Mediocampista,2008-09-13,Unión Personal,Vigente,Activo
+45,Valentino,Godoy,40764927,1133966966,Sub 20,Mediocampista,2006-02-20,Avalian,Vigente,Suspendido
+46,Kevin,Alvarez,46642948,1191363974,Sub 20,Delantero,2006-07-19,Medicus,Vigente,Activo
+47,Maximo,Acosta,32056749,1179782527,Sub 20,Delantero,2008-12-24,Medicus,Vigente,Activo
+48,Benjamin,Molina,43079674,1193638503,Sub 20,Mediocampista,2008-02-24,IOMA,Vigente,Activo
+49,Bruno,Acosta,42944882,1164009265,Sub 20,Mediocampista,2008-03-07,Avalian,Pendiente,Activo
+50,Bruno,Ponce,37839388,1192613013,Sub 20,Mediocampista,2007-09-27,OSDE,Vigente,Activo
+51,Joaquin,Acosta,42812889,1172409658,Sub 20,Delantero,2007-11-07,Unión Personal,Vigente,Suspendido
+52,Tomas,Molina,34845266,1148089166,Sub 17,Delantero,2010-02-27,Medicus,Pendiente,Activo
+53,Santino,Aguirre,38681691,1129777514,Sub 17,Arquero,2009-04-16,Jerárquicos Salud,Vencido,Activo
+54,Martin,Acosta,38524163,1161536717,Sub 17,Delantero,2010-04-05,OSDE,Vencido,Baja
+55,Matias,Lopez,46265539,1139372360,Sub 17,Defensor,2010-01-18,Medicus,Vigente,Activo
+56,Thiago,Aguirre,47590839,1199600766,Sub 17,Delantero,2010-08-20,Unión Personal,Vigente,Activo
+57,Martin,Godoy,37340453,1173709724,Sub 17,Delantero,2010-04-27,IOMA,Vencido,Baja
+58,Ramiro,Herrera,40027759,1146855845,Sub 17,Delantero,2009-12-10,Medicus,Vigente,Activo
+59,Agustin,Godoy,34703737,1128572252,Sub 17,Defensor,2009-07-23,Galeno,Vencido,Activo
+60,Benjamin,Acosta,45676765,1154410148,Sub 17,Delantero,2010-07-02,Medicus,Vigente,Activo
+61,Matias,Quiroga,32655383,1187267850,Sub 17,Mediocampista,2010-01-12,IOMA,Vencido,Activo
+62,Ezequiel,Godoy,46060021,1182238741,Sub 17,Delantero,2009-08-08,IOMA,Vigente,Activo
+63,Juan,Torres,43278635,1199774697,Sub 17,Mediocampista,2009-08-05,Jerárquicos Salud,Vigente,Activo
+64,Damian,Torres,32909393,1121267237,Sub 17,Mediocampista,2009-08-06,OSDE,Vigente,Activo
+65,Agustin,Garcia,47257177,1153868501,Sub 17,Mediocampista,2010-05-25,Avalian,Vigente,Activo
+66,Santiago,Gomez,33747702,1156970882,Sub 17,Defensor,2009-11-02,OSDE,Vigente,Activo
+67,Alan,Gomez,37113103,1142016960,Sub 17,Defensor,2010-11-04,Jerárquicos Salud,Vigente,Activo
+68,Maximo,Diaz,44378068,1132520277,Sub 17,Defensor,2009-05-04,Jerárquicos Salud,Vigente,Activo
+69,Nahuel,Molina,44593211,1163238057,Sub 15,Defensor,2011-10-23,Medicus,Vigente,Lesionado
+70,Ignacio,Romero,36061933,1185958181,Sub 15,Arquero,2012-09-14,Sancor Salud,Vigente,Activo
+71,Federico,Alvarez,32424535,1166379329,Sub 15,Delantero,2011-07-12,OSECAC,Vencido,Activo
+72,Facundo,Perez,41062461,1192666356,Sub 15,Delantero,2012-08-14,Jerárquicos Salud,Vigente,Activo
+73,Ezequiel,Sosa,34907924,1147437115,Sub 15,Delantero,2011-08-19,Jerárquicos Salud,Pendiente,Activo
+74,Agustin,Gomez,48586173,1153622663,Sub 15,Defensor,2012-04-12,IOMA,Vigente,Activo
+75,Matias,Castro,41270035,1184597009,Sub 15,Arquero,2011-02-08,Avalian,Vigente,Activo
+76,Ignacio,Sosa,47975033,1196691619,Sub 15,Delantero,2012-01-03,IOMA,Vigente,Activo
+77,Maximo,Sosa,42274569,1199115205,Sub 15,Mediocampista,2012-09-17,Sancor Salud,Vigente,Suspendido
+78,Gonzalo,Alvarez,43804802,1170900658,Sub 15,Mediocampista,2012-05-08,Swiss Medical,Vencido,Activo
+79,Agustin,Lopez,38212597,1135708194,Sub 15,Defensor,2012-05-24,Jerárquicos Salud,Vencido,Activo
+80,Emiliano,Romero,35373096,1136054020,Sub 15,Mediocampista,2011-06-06,IOMA,Vigente,Suspendido
+81,Gonzalo,Martinez,41204360,1116109013,Sub 15,Arquero,2012-12-05,OSECAC,Vigente,Activo
+82,Nahuel,Romero,47750347,1174251933,Sub 15,Delantero,2012-03-02,IOMA,Vigente,Activo
+83,Alan,Fernandez,45445510,1176001106,Sub 15,Defensor,2011-03-05,Jerárquicos Salud,Vigente,Activo
+84,Santino,Lopez,45964482,1191378577,Sub 15,Defensor,2012-08-15,IOMA,Pendiente,Activo
+85,Franco,Suarez,34020993,1191823275,Sub 15,Defensor,2011-11-07,IOMA,Pendiente,Activo
+86,Tomas,Sosa,37832214,1184087145,Infantiles,Defensor,2014-01-14,OSECAC,Pendiente,Activo
+87,Santiago,Romero,33095211,1141068214,Infantiles,Mediocampista,2015-12-28,OSECAC,Vigente,Lesionado
+88,Santino,Peralta,40876980,1193893865,Infantiles,Defensor,2016-02-18,Medicus,Pendiente,Activo
+89,Damian,Diaz,36772657,1119584466,Infantiles,Arquero,2014-05-20,Jerárquicos Salud,Vigente,Activo
+90,Valentino,Benitez,42203607,1164023778,Infantiles,Mediocampista,2017-09-16,OSECAC,Vigente,Activo
+91,Mateo,Godoy,46496476,1153261270,Infantiles,Mediocampista,2013-02-08,Jerárquicos Salud,Pendiente,Activo
+92,Ignacio,Molina,41043289,1187342561,Infantiles,Arquero,2014-08-17,OSECAC,Vigente,Activo
+93,Nahuel,Acosta,48499579,1122246348,Infantiles,Delantero,2015-07-11,Sancor Salud,Pendiente,Activo
+94,Ezequiel,Perez,43066374,1165250068,Infantiles,Delantero,2015-11-13,Unión Personal,Vigente,Activo
+95,Benjamin,Alvarez,40469100,1153389073,Infantiles,Defensor,2016-09-27,OSDE,Pendiente,Activo
+96,Martin,Acosta,33818787,1135176902,Infantiles,Delantero,2015-10-25,OSECAC,Pendiente,Activo
+97,Ignacio,Rodriguez,38830281,1145843681,Infantiles,Delantero,2014-05-15,OSECAC,Vigente,Activo
+98,Federico,Castro,40029490,1131257157,Infantiles,Mediocampista,2017-01-18,Avalian,Vigente,Activo
+99,Alan,Peralta,35807123,1171934487,Infantiles,Defensor,2014-08-23,IOMA,Vigente,Suspendido
+100,Bautista,Acosta,48189999,1173380266,Infantiles,Defensor,2016-09-05,Avalian,Vigente,Activo
