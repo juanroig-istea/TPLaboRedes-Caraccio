@@ -36,7 +36,11 @@ $flash = get_flash();
             <h1>Gestión de Jugadores</h1>
             <p class="subtitle left">Administrá plantel, categorías, posiciones, aptos médicos y estados deportivos.</p>
         </div>
-        <a class="btn btn-primary" href="crear.php">+ Nuevo Jugador</a>
+        <div class="row-actions">
+    <a class="btn btn-primary" href="crear.php">+ Nuevo Jugador</a>
+    <a class="btn btn-primary" href="estadisticas.php">Estadisticas</a>
+    <a class="btn btn-primary" href="index.php">Volver al panel</a>
+</div>
     </section>
 
     <section class="card">
